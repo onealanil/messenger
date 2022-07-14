@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.profile-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-container-bg{
+    width: 80%;
+    height: 80%;
+    border-radius: 1rem;
+    background-color: white;
+    display: flex;
+}
+.profile-row-1{
+    flex: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.profile-row-2{
+    flex:7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -5rem;
+}
+.profile-row-1-pic{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+}
+.profile-name{
+  margin-bottom: 1rem;
+}
+.profile-name-text{
+  font-size: 25px;
+  font-weight: bold;
+}
+.profile-bio{
+  margin-bottom: 1rem;
+  width: 35rem;
+  height: 7rem;
+  overflow: scroll;
+}
+.profile-bio-text{
+  font-size: 20px;
+  font-weight: 100;
+}
+.profile-gender{
+  margin-bottom: 1rem;
+}
+.profile-gender-text{
+  font-size: 16px;
+  font-style: italic;
+}
+.profile-edit{
+  margin-right: -13px;
+  z-index: 1;
+  cursor: pointer;
+  padding: 2rem;
+}
+.profile-edit:hover{
+  color: blue;
+}
+.update-button{
+  background-color: #2673ed;
+  border: none;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 18px;
+  color: white;
+}
+.update-button:hover{
+  background-color:#094cb5;
+}

@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-container{
+    margin: 0rem 1rem 0rem 1rem;
+    width: 96.5vw;
+    height: 7rem;
+    background-color: rgb(172, 212, 248);
+    border-radius: 1rem;
+}
+.nav-content{
+ display: flex;
+}
+.nav-logo{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem 1rem 0rem 1rem;
+}
+.nav-other{
+    flex: 11;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.nav-other-css{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-photos{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    margin: 0.5rem 0rem 0rem 2rem;
+}
+.nav-explore-frn{
+   margin-left: 2rem;
+}
+.nav-search-bar{
+    margin-left: 7rem;
+}
+.search-bar-container{
+    margin-top: 8px;
+}
+
+.friends-container{
+    width: 98%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.friends-container-bg{
+    width: 96%;
+    height: 90vh;
+    border-radius: 1rem;
+    background-color: rgb(172, 212, 248);
+    display: flex;
+    overflow: scroll;
+    flex-direction: column;
+}
+.friends-width{
+    width: 100%;
+    height: 7rem;
+    margin: 1rem 0rem 1rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.friends-width-bg{
+    width: 80%;
+    height: 6.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+}
+.profile{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.other-info{
+    flex: 6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.add-friend-container{
+    flex:3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.friends-profile-photo{
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+}

@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 13%, rgba(5,176,177,1) 62%, rgba(0,212,255,1) 100%);
+}
+.bg-container {
+}
+.logo-text {
+  display: flex;
+  height: 20vh;
+  width: 100vw;
+}
+.logo {
+  flex: 2;
+}
+.logo-img {
+  width: 6.5rem;
+  height: 6.5rem;
+  margin: 1rem 1rem 1rem 2rem;
+  cursor: pointer;
+
+}
+.login-signup-text {
+  flex: 10;
+  font-size: 1.5rem;
+  margin: 2.5rem 0rem 0rem 7rem;
+  font-family: "Red Hat Mono", monospace;
+}
+.buttons {
+  width: 80vw;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-left: 7rem;
+}
+.btn-1 {
+  margin-right: 5rem;
+}
+.btn-2 {
+  margin-right: 5rem;
+}
+.btn-text {
+  font-family: "Red Hat Mono", monospace;
+}
+.dialog-title-logo {
+  display: flex;
+}
+.dialog-logo {
+  width: 3rem;
+  height: 3rem;
+ 
+}
+.dialog-title {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dialog-title-text-login {
+  font-family: "Red Hat Mono", monospace;
+  font-weight: bold;
+  color: #2185d0;
+}
+.login-signup-button{
+  font-family: "Red Hat Mono", monospace;
+  font-weight: bold;
+  color: white;
+}
+.cancel-button{
+  color: red;
+}
+.dialog-title-text-signup {
+  font-family: "Red Hat Mono", monospace;
+  font-weight: bold;
+  color: #6a906e;
+}

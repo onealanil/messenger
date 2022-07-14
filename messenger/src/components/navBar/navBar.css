@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-container {
+  margin: 0rem 1rem 0rem 1rem;
+  width: 96.5vw;
+  height: 7rem;
+  background-color: rgb(172, 212, 248);
+  border-radius: 1rem;
+}
+.nav-content {
+  display: flex;
+}
+.nav-logo {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  width: 5rem;
+  height: 5rem;
+  margin: 1rem 1rem 0rem 1rem;
+}
+.nav-others {
+  flex: 11;
+  /* background-color: yellow; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.nav-other-css {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-profile {
+}
+.profile-photo {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin: 0.5rem -4rem 0rem 0rem;
+  cursor: pointer;
+}
+.nav-explore-frnd {
+  margin-right: 3rem;
+}
+.nav-search-bars {
+  margin-right: 3rem;
+}
+.notification {
+  margin-right: 3rem;
+  margin-bottom: 2rem;
+}
+.notification-number {
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.notification-number-or{
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.search-bar-container {
+  margin-top: 8px;
+}
+
+/* notification start  */
+.notification-container {
+  height: 30rem;
+  width: 25rem;
+  background-color: rgb(172, 212, 248);
+}
+.notification-background {
+  height: 92%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.notification-bg {
+  height: 95%;
+  width: 95%;
+  background-color: white;
+  border-radius: 18px;
+  padding: 1rem;
+  overflow: scroll;
+}
+.notification-nav {
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.notification-body-content {
+  width: 100%;
+  height: 5rem;
+  background-color: rgb(172, 212, 248);
+  display: flex;
+  margin-bottom: 1rem;
+  border-radius: 18px;
+}
+.notification-img{
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.notification-content{
+  flex:9;
+}
+.notification-image{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+}
+.notification-btn{
+    width: 7rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+}
+.notification-request-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+}
+.notification-name{
+    margin: 0.5rem;
+}
+/* notification end  */
