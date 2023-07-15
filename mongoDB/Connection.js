@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const url = "mongodb+srv://Onealanil:helloworld123@cluster0.equk5.mongodb.net/messengerMERN?retryWrites=true&w=majority";
+const url = "mongodb+srv://@cluster0.equk5.mongodb.net/messengerMERN?retryWrites=true&w=majority";
 mongoose
   .connect(url, {
     useUnifiedTopology: true,
